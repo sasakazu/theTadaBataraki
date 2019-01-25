@@ -81,7 +81,7 @@
 		7396A71021FAB699008CB8D7 /* TADA-BATARAKI */ = {
 			isa = PBXGroup;
 			children = (
-				7396A72821FB184D008CB8D7 /* 探す */,
+				7396A72821FB184D008CB8D7 /* Main */,
 				7396A72321FAC2E5008CB8D7 /* images */,
 				7396A71121FAB699008CB8D7 /* AppDelegate.swift */,
 				7396A71321FAB699008CB8D7 /* ViewController.swift */,
@@ -105,12 +105,12 @@
 			path = images;
 			sourceTree = "<group>";
 		};
-		7396A72821FB184D008CB8D7 /* 探す */ = {
+		7396A72821FB184D008CB8D7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				7396A72921FB1897008CB8D7 /* mainView.swift */,
 			);
-			name = "探す";
+			name = Main;
 			path = "現在地で探す";
 			sourceTree = "<group>";
 		};
