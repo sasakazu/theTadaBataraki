@@ -12,6 +12,8 @@
 		7396A71721FAB699008CB8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71521FAB699008CB8D7 /* Main.storyboard */; };
 		7396A71921FAB69D008CB8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71821FAB69D008CB8D7 /* Assets.xcassets */; };
 		7396A71C21FAB69D008CB8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */; };
+		7396A72521FAC321008CB8D7 /* iconmonstr-generation-7-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396A72421FAC321008CB8D7 /* iconmonstr-generation-7-48.png */; };
+		7396A72721FAC3EC008CB8D7 /* iconmonstr-handshake-7-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396A72621FAC3EC008CB8D7 /* iconmonstr-handshake-7-48.png */; };
 		D1D0ADE7B26F5EE0CE683217 /* Pods_TADA_BATARAKI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		7396A71821FAB69D008CB8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7396A71B21FAB69D008CB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7396A71D21FAB69D008CB8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7396A72421FAC321008CB8D7 /* iconmonstr-generation-7-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-generation-7-48.png"; sourceTree = "<group>"; };
+		7396A72621FAC3EC008CB8D7 /* iconmonstr-handshake-7-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-handshake-7-48.png"; sourceTree = "<group>"; };
 		E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADA-BATARAKI.debug.xcconfig"; path = "Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +73,7 @@
 		7396A71021FAB699008CB8D7 /* TADA-BATARAKI */ = {
 			isa = PBXGroup;
 			children = (
+				7396A72321FAC2E5008CB8D7 /* images */,
 				7396A71121FAB699008CB8D7 /* AppDelegate.swift */,
 				7396A71321FAB699008CB8D7 /* ViewController.swift */,
 				7396A71521FAB699008CB8D7 /* Main.storyboard */,
@@ -79,13 +84,21 @@
 			path = "TADA-BATARAKI";
 			sourceTree = "<group>";
 		};
+		7396A72321FAC2E5008CB8D7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7396A72421FAC321008CB8D7 /* iconmonstr-generation-7-48.png */,
+				7396A72621FAC3EC008CB8D7 /* iconmonstr-handshake-7-48.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		9A4DCF72054445F934C7956B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */,
 				1550B847EA58C8EBE950BF79 /* Pods-TADA-BATARAKI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +165,8 @@
 				7396A71C21FAB69D008CB8D7 /* LaunchScreen.storyboard in Resources */,
 				7396A71921FAB69D008CB8D7 /* Assets.xcassets in Resources */,
 				7396A71721FAB699008CB8D7 /* Main.storyboard in Resources */,
+				7396A72721FAC3EC008CB8D7 /* iconmonstr-handshake-7-48.png in Resources */,
+				7396A72521FAC321008CB8D7 /* iconmonstr-generation-7-48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
