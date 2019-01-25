@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7396A71221FAB699008CB8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396A71121FAB699008CB8D7 /* AppDelegate.swift */; };
+		7396A71421FAB699008CB8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396A71321FAB699008CB8D7 /* ViewController.swift */; };
+		7396A71721FAB699008CB8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71521FAB699008CB8D7 /* Main.storyboard */; };
+		7396A71921FAB69D008CB8D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71821FAB69D008CB8D7 /* Assets.xcassets */; };
+		7396A71C21FAB69D008CB8D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */; };
+		D1D0ADE7B26F5EE0CE683217 /* Pods_TADA_BATARAKI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1550B847EA58C8EBE950BF79 /* Pods-TADA-BATARAKI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADA-BATARAKI.release.xcconfig"; path = "Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI.release.xcconfig"; sourceTree = "<group>"; };
+		6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TADA_BATARAKI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396A70E21FAB699008CB8D7 /* TADA-BATARAKI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TADA-BATARAKI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7396A71121FAB699008CB8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7396A71321FAB699008CB8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7396A71621FAB699008CB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7396A71821FAB69D008CB8D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7396A71B21FAB69D008CB8D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7396A71D21FAB69D008CB8D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADA-BATARAKI.debug.xcconfig"; path = "Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7396A70B21FAB699008CB8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D0ADE7B26F5EE0CE683217 /* Pods_TADA_BATARAKI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A6626D5A2C06CA17E1D7F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7396A70521FAB699008CB8D7 = {
+			isa = PBXGroup;
+			children = (
+				7396A71021FAB699008CB8D7 /* TADA-BATARAKI */,
+				7396A70F21FAB699008CB8D7 /* Products */,
+				9A4DCF72054445F934C7956B /* Pods */,
+				6A6626D5A2C06CA17E1D7F57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7396A70F21FAB699008CB8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7396A70E21FAB699008CB8D7 /* TADA-BATARAKI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7396A71021FAB699008CB8D7 /* TADA-BATARAKI */ = {
+			isa = PBXGroup;
+			children = (
+				7396A71121FAB699008CB8D7 /* AppDelegate.swift */,
+				7396A71321FAB699008CB8D7 /* ViewController.swift */,
+				7396A71521FAB699008CB8D7 /* Main.storyboard */,
+				7396A71821FAB69D008CB8D7 /* Assets.xcassets */,
+				7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */,
+				7396A71D21FAB69D008CB8D7 /* Info.plist */,
+			);
+			path = "TADA-BATARAKI";
+			sourceTree = "<group>";
+		};
+		9A4DCF72054445F934C7956B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */,
+				1550B847EA58C8EBE950BF79 /* Pods-TADA-BATARAKI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7396A70D21FAB699008CB8D7 /* TADA-BATARAKI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7396A72021FAB69D008CB8D7 /* Build configuration list for PBXNativeTarget "TADA-BATARAKI" */;
+			buildPhases = (
+				B4D22BF3F746DE04A3CF0534 /* [CP] Check Pods Manifest.lock */,
+				7396A70A21FAB699008CB8D7 /* Sources */,
+				7396A70B21FAB699008CB8D7 /* Frameworks */,
+				7396A70C21FAB699008CB8D7 /* Resources */,
+				CDD6D067E13F934C1786D51E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TADA-BATARAKI";
+			productName = "TADA-BATARAKI";
+			productReference = 7396A70E21FAB699008CB8D7 /* TADA-BATARAKI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7396A70621FAB699008CB8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "笹倉一也";
+				TargetAttributes = {
+					7396A70D21FAB699008CB8D7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 7396A70921FAB699008CB8D7 /* Build configuration list for PBXProject "TADA-BATARAKI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7396A70521FAB699008CB8D7;
+			productRefGroup = 7396A70F21FAB699008CB8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7396A70D21FAB699008CB8D7 /* TADA-BATARAKI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7396A70C21FAB699008CB8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396A71C21FAB69D008CB8D7 /* LaunchScreen.storyboard in Resources */,
+				7396A71921FAB69D008CB8D7 /* Assets.xcassets in Resources */,
+				7396A71721FAB699008CB8D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4D22BF3F746DE04A3CF0534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TADA-BATARAKI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD6D067E13F934C1786D51E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7396A70A21FAB699008CB8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7396A71421FAB699008CB8D7 /* ViewController.swift in Sources */,
+				7396A71221FAB699008CB8D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7396A71521FAB699008CB8D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7396A71621FAB699008CB8D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7396A71B21FAB69D008CB8D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7396A71E21FAB69D008CB8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7396A71F21FAB69D008CB8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7396A72121FAB69D008CB8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = "TADA-BATARAKI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.88company.TADA-BATARAKI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7396A72221FAB69D008CB8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1550B847EA58C8EBE950BF79 /* Pods-TADA-BATARAKI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VNAV5S2KU6;
+				INFOPLIST_FILE = "TADA-BATARAKI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.88company.TADA-BATARAKI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7396A70921FAB699008CB8D7 /* Build configuration list for PBXProject "TADA-BATARAKI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396A71E21FAB69D008CB8D7 /* Debug */,
+				7396A71F21FAB69D008CB8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7396A72021FAB69D008CB8D7 /* Build configuration list for PBXNativeTarget "TADA-BATARAKI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7396A72121FAB69D008CB8D7 /* Debug */,
+				7396A72221FAB69D008CB8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7396A70621FAB699008CB8D7 /* Project object */;
+}
