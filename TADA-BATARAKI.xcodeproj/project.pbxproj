@@ -18,6 +18,7 @@
 		7396A72C21FB1A5B008CB8D7 /* iconmonstr-handshake-7-240.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396A72B21FB1A5B008CB8D7 /* iconmonstr-handshake-7-240.png */; };
 		7396A72E21FB1C4F008CB8D7 /* iconmonstr-fast-food-12-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396A72D21FB1C4F008CB8D7 /* iconmonstr-fast-food-12-48.png */; };
 		7396A73021FB1D4D008CB8D7 /* iconmonstr-menu-7-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7396A72F21FB1D4C008CB8D7 /* iconmonstr-menu-7-48.png */; };
+		73DE241D21FC5030005B77EF /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73DE241C21FC5030005B77EF /* object.swift */; };
 		D1D0ADE7B26F5EE0CE683217 /* Pods_TADA_BATARAKI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		7396A72B21FB1A5B008CB8D7 /* iconmonstr-handshake-7-240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-handshake-7-240.png"; sourceTree = "<group>"; };
 		7396A72D21FB1C4F008CB8D7 /* iconmonstr-fast-food-12-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-fast-food-12-48.png"; sourceTree = "<group>"; };
 		7396A72F21FB1D4C008CB8D7 /* iconmonstr-menu-7-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-menu-7-48.png"; sourceTree = "<group>"; };
+		73DE241C21FC5030005B77EF /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
 		E5DE328277E41A028356BD3D /* Pods-TADA-BATARAKI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADA-BATARAKI.debug.xcconfig"; path = "Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				7396A71121FAB699008CB8D7 /* AppDelegate.swift */,
 				7396A71321FAB699008CB8D7 /* ViewController.swift */,
 				7396A71521FAB699008CB8D7 /* Main.storyboard */,
+				73DE241C21FC5030005B77EF /* object.swift */,
 				7396A71821FAB69D008CB8D7 /* Assets.xcassets */,
 				7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */,
 				7396A71D21FAB69D008CB8D7 /* Info.plist */,
@@ -252,6 +255,7 @@
 			files = (
 				7396A72A21FB1897008CB8D7 /* mainView.swift in Sources */,
 				7396A71421FAB699008CB8D7 /* ViewController.swift in Sources */,
+				73DE241D21FC5030005B77EF /* object.swift in Sources */,
 				7396A71221FAB699008CB8D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
