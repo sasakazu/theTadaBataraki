@@ -64,10 +64,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7396A70521FAB699008CB8D7 = {
+		738A5CF52201A92600541E8A /* MORE */ = {
 			isa = PBXGroup;
 			children = (
 				738A5CF32201A22B00541E8A /* addEvent.swift */,
+			);
+			path = MORE;
+			sourceTree = "<group>";
+		};
+		738A5CF62201A94200541E8A /* データーベース */ = {
+			isa = PBXGroup;
+			children = (
+				73DE241C21FC5030005B77EF /* object.swift */,
+			);
+			name = "データーベース";
+			path = "データーベース";
+			sourceTree = "<group>";
+		};
+		7396A70521FAB699008CB8D7 = {
+			isa = PBXGroup;
+			children = (
 				7396A71021FAB699008CB8D7 /* TADA-BATARAKI */,
 				7396A70F21FAB699008CB8D7 /* Products */,
 				9A4DCF72054445F934C7956B /* Pods */,
@@ -87,11 +103,12 @@
 			isa = PBXGroup;
 			children = (
 				7396A72821FB184D008CB8D7 /* Main */,
+				738A5CF52201A92600541E8A /* MORE */,
 				7396A72321FAC2E5008CB8D7 /* images */,
+				738A5CF62201A94200541E8A /* データーベース */,
 				7396A71121FAB699008CB8D7 /* AppDelegate.swift */,
 				7396A71321FAB699008CB8D7 /* ViewController.swift */,
 				7396A71521FAB699008CB8D7 /* Main.storyboard */,
-				73DE241C21FC5030005B77EF /* object.swift */,
 				7396A71821FAB69D008CB8D7 /* Assets.xcassets */,
 				7396A71A21FAB69D008CB8D7 /* LaunchScreen.storyboard */,
 				7396A71D21FAB69D008CB8D7 /* Info.plist */,

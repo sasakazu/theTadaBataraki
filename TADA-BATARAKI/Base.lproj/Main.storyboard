@@ -328,7 +328,7 @@
             </objects>
             <point key="canvasLocation" x="2357.5999999999999" y="98.50074962518741"/>
         </scene>
-        <!--探す-->
+        <!--地域一覧-->
         <scene sceneID="N65-uY-6jh">
             <objects>
                 <viewController id="jtx-R9-Tgb" customClass="mainView" customModule="TADA_BATARAKI" customModuleProvider="target" sceneMemberID="viewController">
@@ -364,7 +364,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dhA-TO-K45"/>
                     </view>
-                    <navigationItem key="navigationItem" title="探す" id="3QF-Vk-w6q"/>
+                    <navigationItem key="navigationItem" title="地域一覧" id="3QF-Vk-w6q"/>
                     <connections>
                         <outlet property="tableView" destination="jzY-gS-at6" id="PKB-va-jcP"/>
                         <segue destination="ivQ-0J-r6M" kind="show" id="fgo-mf-VDX"/>
@@ -374,7 +374,7 @@
             </objects>
             <point key="canvasLocation" x="878" y="-612"/>
         </scene>
-        <!--一覧-->
+        <!--依頼一覧-->
         <scene sceneID="C8w-ap-C0O">
             <objects>
                 <viewController id="ivQ-0J-r6M" sceneMemberID="viewController">
@@ -406,7 +406,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bU9-eg-F31"/>
                     </view>
-                    <navigationItem key="navigationItem" title="一覧" id="6lZ-1f-O0L"/>
+                    <navigationItem key="navigationItem" title="依頼一覧" id="6lZ-1f-O0L"/>
                     <connections>
                         <segue destination="o8a-We-X64" kind="show" id="YMt-Ff-1mU"/>
                     </connections>
@@ -415,7 +415,7 @@
             </objects>
             <point key="canvasLocation" x="1604" y="-612"/>
         </scene>
-        <!--詳細-->
+        <!--依頼詳細-->
         <scene sceneID="EgW-Q8-lQt">
             <objects>
                 <viewController id="o8a-We-X64" sceneMemberID="viewController">
@@ -425,7 +425,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xgl-fk-Kf4"/>
                     </view>
-                    <navigationItem key="navigationItem" title="詳細" id="AsT-wz-hTs"/>
+                    <navigationItem key="navigationItem" title="依頼詳細" id="AsT-wz-hTs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DBu-G5-xZd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,12 +10,19 @@ import Foundation
 import RealmSwift
 
 
-class TadaBataraki: Object {
+class Event: Object {
+    
+    @objc dynamic var title: String = ""
+    @objc dynamic var dokode: String = ""
+    @objc dynamic var content: String = ""
+    
+}
+
+
+class Men: Object {
     
     @objc dynamic var name: String = ""
-    @objc dynamic var dokode: String = ""
-    
-    
+    @objc dynamic var number: String = ""
     
     
 }
