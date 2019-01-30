@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		738A5CF42201A22B00541E8A /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738A5CF32201A22B00541E8A /* addEvent.swift */; };
 		7396A71221FAB699008CB8D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396A71121FAB699008CB8D7 /* AppDelegate.swift */; };
 		7396A71421FAB699008CB8D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7396A71321FAB699008CB8D7 /* ViewController.swift */; };
 		7396A71721FAB699008CB8D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7396A71521FAB699008CB8D7 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1550B847EA58C8EBE950BF79 /* Pods-TADA-BATARAKI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TADA-BATARAKI.release.xcconfig"; path = "Target Support Files/Pods-TADA-BATARAKI/Pods-TADA-BATARAKI.release.xcconfig"; sourceTree = "<group>"; };
 		6FABD39D125B6BF8965D547B /* Pods_TADA_BATARAKI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TADA_BATARAKI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		738A5CF32201A22B00541E8A /* addEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
 		7396A70E21FAB699008CB8D7 /* TADA-BATARAKI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TADA-BATARAKI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7396A71121FAB699008CB8D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7396A71321FAB699008CB8D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 		7396A70521FAB699008CB8D7 = {
 			isa = PBXGroup;
 			children = (
+				738A5CF32201A22B00541E8A /* addEvent.swift */,
 				7396A71021FAB699008CB8D7 /* TADA-BATARAKI */,
 				7396A70F21FAB699008CB8D7 /* Products */,
 				9A4DCF72054445F934C7956B /* Pods */,
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7396A72A21FB1897008CB8D7 /* mainView.swift in Sources */,
+				738A5CF42201A22B00541E8A /* addEvent.swift in Sources */,
 				7396A71421FAB699008CB8D7 /* ViewController.swift in Sources */,
 				73DE241D21FC5030005B77EF /* object.swift in Sources */,
 				7396A71221FAB699008CB8D7 /* AppDelegate.swift in Sources */,
